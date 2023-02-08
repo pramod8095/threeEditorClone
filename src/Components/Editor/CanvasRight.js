@@ -8,7 +8,7 @@ export default function CanvasRight() {
   useEffect(() => {
     addEventListeners();
     return () => removeEventListeners();
-  }, []);
+  });
 
   const addEventListeners = () => {
     document.addEventListener("mousemove", onMouseMove);
