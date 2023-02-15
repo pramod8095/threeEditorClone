@@ -29,7 +29,7 @@ export default function CanvasRight() {
     <div
       style={{
         padding: "70px 0",
-        border: "3px solid green",
+        border: "3px ",
         textAlign: "center",
         width: "600",
         height: "100%",
@@ -48,7 +48,7 @@ export default function CanvasRight() {
             left: `${position.x}px`,
             top: `${position.y}px`,
           }}
-        />
+        ></div>
         {heroValue}
       </div>
     </div>
